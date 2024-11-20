@@ -8,9 +8,9 @@ Feature: US-025: Alertas sobre condiciones climáticas adversas
 
     Examples:
       | condicion_climatica | ubicacion |
-      | Tormenta | Cajamarca |
-      | Granizo | Cusco |
-
+      | Tormenta            | Cajamarca |
+      | Granizo             | Cusco     |
+ 
   Scenario Outline: Escenario 2: Configuración de tipos de alertas climáticas
     Given que un agricultor está autenticado y desea recibir solo ciertos tipos de alertas,
     When el agricultor accede a la configuración de alertas y selecciona las condiciones climáticas de interés (por ejemplo, heladas, sequías, tormentas),
@@ -18,5 +18,6 @@ Feature: US-025: Alertas sobre condiciones climáticas adversas
 
     Examples:
       | tipos_de_alerta |
-      | Heladas |
-      | Tormentas |
+      | Heladas         |
+      | Tormentas       |
+ 

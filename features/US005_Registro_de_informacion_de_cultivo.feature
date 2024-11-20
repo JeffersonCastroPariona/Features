@@ -8,8 +8,8 @@ Feature: US-005: Registro de información de cultivo
 
     Examples:
       | tipo_de_cultivo | fecha_de_siembra | ubicacion | estado_de_crecimiento |
-      | Maíz | 2023-05-10 | Cajamarca | Creciendo |
-      | Papas | 2023-06-15 | Cusco | Germinando |
+      | Maíz            | 2023-05-10       | Cajamarca | Creciendo             |
+      | Papas           | 2023-06-15       | Cusco     | Germinando            |
 
   Scenario Outline: Escenario 2: Fallo en el registro de información (datos incompletos)
     Given que un agricultor está autenticado y quiere registrar información sobre sus cultivos,
@@ -18,4 +18,4 @@ Feature: US-005: Registro de información de cultivo
 
     Examples:
       | tipo_de_cultivo | fecha_de_siembra | ubicacion | estado_de_crecimiento |
-      | Maíz |  | Cajamarca | Creciendo |
+      | Maíz            |                  | Cajamarca | Creciendo             |

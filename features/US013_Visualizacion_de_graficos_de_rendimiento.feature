@@ -7,9 +7,9 @@ Feature: US-013: Visualización de gráficos de rendimiento
     Then el sistema debe mostrar un gráfico que represente el historial de uso de agua y fertilizantes, permitiendo al agricultor observar las tendencias a lo largo del tiempo.
 
     Examples:
-      | recurso | periodo | cantidad_utilizada |
-      | Agua | Enero | 200L |
-      | Fertilizante | Enero | 10kg |
+      | recurso      | periodo | cantidad_utilizada |
+      | Agua         | Enero   | 200L               |
+      | Fertilizante | Enero   | 10kg               |
 
   Scenario Outline: Escenario 2: Visualización exitosa de gráficos de rendimiento de cultivos
     Given que un agricultor está autenticado y tiene datos de rendimiento de cultivos registrados,
@@ -18,5 +18,5 @@ Feature: US-013: Visualización de gráficos de rendimiento
 
     Examples:
       | cultivo | periodo | rendimiento_kg_ |
-      | Maíz | 2023 | 5000 |
-      | Papas | 2023 | 3000 |
+      | Maíz    | 2023    | 5000            |
+      | Papas   | 2023    | 3000            |

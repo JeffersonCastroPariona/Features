@@ -7,8 +7,8 @@ Feature: US-036: Reporte de errores
     Then el sistema debe registrar el reporte y mostrar un mensaje de confirmación indicando que el error ha sido reportado y que recibirán actualizaciones sobre su estado.
 
     Examples:
-      | descripcion_del_error |
-      | La aplicación se congela al cargar |
+      | descripcion_del_error                 |
+      | La aplicación se congela al cargar    |
       | Los datos de cultivo no se actualizan |
 
   Scenario Outline: Escenario 2: Recepción de actualizaciones sobre el estado del error
@@ -18,6 +18,6 @@ Feature: US-036: Reporte de errores
 
     Examples:
       | estado_del_reporte |
-      | Pendiente |
-      | En proceso |
-      | Resuelto |
+      | Pendiente          |
+      | En proceso         |
+      | Resuelto           |

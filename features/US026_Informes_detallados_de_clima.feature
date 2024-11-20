@@ -8,8 +8,8 @@ Feature: US-026: Informes detallados de clima
 
     Examples:
       | cultivo | periodo |
-      | Maíz | 2023 |
-      | Papas | 2023 |
+      | Maíz    | 2023    |
+      | Papas   | 2023    |
 
   Scenario Outline: Escenario 2: Descarga de informes climáticos en formato PDF
     Given que un estudiante está autenticado y desea descargar un informe sobre el impacto del clima en los cultivos,
@@ -17,5 +17,5 @@ Feature: US-026: Informes detallados de clima
     Then el sistema debe permitir la descarga del informe en formato PDF para facilitar su uso en proyectos académicos o estudios.
 
     Examples:
-      |  |
-      |  |
+      |  Informe    |
+      |  download   |

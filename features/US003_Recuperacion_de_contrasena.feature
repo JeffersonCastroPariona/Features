@@ -7,8 +7,8 @@ Feature: US-003: Recuperación de contraseña
     Then el sistema debe enviar un correo electrónico con un enlace de recuperación de contraseña al usuario, y mostrar un mensaje indicando que las instrucciones han sido enviadas a su correo.
 
     Examples:
-      | correo_electronico |
-      | usuario@dominio.com |
+      | correo_electronico   |
+      | usuario@dominio.com  |
       | usuario2@dominio.com |
 
   Scenario Outline: Escenario 2: Solicitud de recuperación de contraseña fallida (correo no registrado)
@@ -17,6 +17,6 @@ Feature: US-003: Recuperación de contraseña
     Then el sistema debe mostrar un mensaje de error indicando que no existe ninguna cuenta asociada a ese correo y no debe enviar el enlace de recuperación.
 
     Examples:
-      | correo_electronico |
-      | noexiste@dominio.com |
+      | correo_electronico     |
+      | noexiste@dominio.com   |
       | otrocorreo@dominio.com |

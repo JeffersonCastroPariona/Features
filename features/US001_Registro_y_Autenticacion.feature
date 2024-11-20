@@ -8,10 +8,10 @@ Feature: US-001: Registro y Autenticación
     And Y el usuario es redirigido a la página de inicio de sesión después de completar el registro.
 
     Examples:
-      | correo_electronico | numero_de_celular |
-      | usuario@dominio.com | 9876543210 |
-      | usuario2@dominio.com | 9988776655 |
-      | usuario3@dominio.com | 6677889900 |
+      | correo_electronico   | numero_de_celular |
+      | usuario@dominio.com  | 9876543210        |
+      | usuario2@dominio.com | 9988776655        |
+      | usuario3@dominio.com | 6677889900        |
 
   Scenario Outline: Escenario 2: Registro fallido por campos vacíos
     Given que el usuario no completa todos los campos obligatorios en el formulario de registro
@@ -19,6 +19,6 @@ Feature: US-001: Registro y Autenticación
     Then el sistema muestra un mensaje de error indicando qué campos deben completarse.
 
     Examples:
-      | correo_electronico | numero_de_celular |
-      | usuario@dominio.com |  |
-      |  | 9876543210 |
+      | correo_electronico  | numero_de_celular |
+      | usuario@dominio.com |                   |
+      |                     | 9876543210        |

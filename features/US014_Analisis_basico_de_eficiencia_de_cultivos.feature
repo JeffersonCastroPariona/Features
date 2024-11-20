@@ -8,8 +8,8 @@ Feature: US-014: Análisis básico de eficiencia de cultivos
 
     Examples:
       | cultivo | recursos_utilizados | rendimiento_kg_ |
-      | Maíz | 100L de agua | 5000 |
-      | Papas | 50L de agua | 3000 |
+      | Maíz    | 100L de agua        | 5000            |
+      | Papas   | 50L de agua         | 3000            |
 
   Scenario Outline: Escenario 2: Análisis de eficiencia sin datos suficientes
     Given que un agricultor está autenticado y desea obtener un análisis de eficiencia,
@@ -18,4 +18,4 @@ Feature: US-014: Análisis básico de eficiencia de cultivos
 
     Examples:
       | cultivo | rendimiento_kg_ | recursos_utilizados |
-      |  |  |  |
+      |         |                 |                     |

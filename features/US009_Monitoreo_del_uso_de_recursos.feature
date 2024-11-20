@@ -8,8 +8,8 @@ Feature: US-009: Monitoreo del uso de recursos
 
     Examples:
       | cultivo | agua_utilizada_L_ | fertilizante_utilizado_kg_ |
-      | Maíz | 500 | 10 |
-      | Papas | 350 | 8 |
+      | Maíz    | 500               | 10                         |
+      | Papas   | 350               | 8                          |
 
   Scenario Outline: Escenario 2: Fallo en el monitoreo (datos incompletos)
     Given que un agricultor está autenticado y desea registrar el uso de recursos,
@@ -18,4 +18,4 @@ Feature: US-009: Monitoreo del uso de recursos
 
     Examples:
       | cultivo | agua_utilizada_L_ | fertilizante_utilizado_kg_ |
-      | Maíz |  | 10 |
+      | Maíz    |                   | 10                         |

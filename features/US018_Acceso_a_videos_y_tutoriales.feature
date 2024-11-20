@@ -7,8 +7,8 @@ Feature: US-018: Acceso a videos y tutoriales
     Then el sistema debe mostrar una lista de videos y tutoriales relacionados con esa categoría, permitiendo al usuario ver los contenidos directamente desde la plataforma.
 
     Examples:
-      | categoria |
-      | Riego |
+      | categoria     |
+      | Riego         |
       | Fertilización |
 
   Scenario Outline: Escenario 2: Búsqueda de videos por tema específico
@@ -17,6 +17,6 @@ Feature: US-018: Acceso a videos y tutoriales
     Then el sistema debe mostrar una lista de videos relevantes que coincidan con el término de búsqueda, proporcionando opciones filtradas para facilitar el acceso al contenido.
 
     Examples:
-      | termino_de_busqueda |
+      | termino_de_busqueda    |
       | Fertilización orgánica |
-      | Control de plagas |
+      | Control de plagas      |

@@ -9,7 +9,7 @@ Feature: US-024: Información meteorológica
     Examples:
       | ubicacion |
       | Cajamarca |
-      | Cusco |
+      | Cusco     |
 
   Scenario Outline: Escenario 2: Notificación de cambios bruscos en el clima
     Given que un usuario está autenticado y ha activado las alertas de cambios climáticos,
@@ -18,5 +18,5 @@ Feature: US-024: Información meteorológica
 
     Examples:
       | cambio_climatico | ubicacion |
-      | Tormenta | Cajamarca |
-      | Helada | Cusco |
+      | Tormenta         | Cajamarca |
+      | Helada           | Cusco     |

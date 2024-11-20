@@ -8,8 +8,8 @@ Feature: US-012: Registro de datos de crecimiento
 
     Examples:
       | cultivo | altura_cm_ | estado_de_salud | fecha_de_registro |
-      | Maíz | 45 | Bueno | 2023-05-01 |
-      | Papas | 30 | Normal | 2023-05-02 |
+      | Maíz    | 45         | Bueno           | 2023-05-01        |
+      | Papas   | 30         | Normal          | 2023-05-02        |
 
   Scenario Outline: Escenario 2: Fallo en el registro de datos de crecimiento (información incompleta)
     Given que un agricultor está autenticado y intenta registrar datos de crecimiento,
@@ -18,4 +18,4 @@ Feature: US-012: Registro de datos de crecimiento
 
     Examples:
       | cultivo | altura_cm_ | estado_de_salud | fecha_de_registro |
-      | Maíz | 45 |  | 2023-05-01 |
+      | Maíz    | 45         |                 | 2023-05-01        |

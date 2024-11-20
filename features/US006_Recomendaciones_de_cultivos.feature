@@ -7,9 +7,9 @@ Feature: US-006: Recomendaciones de cultivos
     Then el sistema debe mostrar una lista de cultivos recomendados según la región, las condiciones climáticas actuales y la temporada del año.
 
     Examples:
-      | region | temporada | cultivos_recomendados |
-      | Cajamarca | Verano | Maíz , Soya , Tomate |
-      | Cusco | Invierno | Papas , Cebada , Zanahorias |
+      | region    | temporada | cultivos_recomendados       |
+      | Cajamarca | Verano    | Maíz , Soya , Tomate        |
+      | Cusco     | Invierno  | Papas , Cebada , Zanahorias |
 
   Scenario Outline: Escenario 2: Fallo en la obtención de recomendaciones (ubicación no proporcionada)
     Given que un agricultor no ha proporcionado su ubicación,
@@ -17,5 +17,5 @@ Feature: US-006: Recomendaciones de cultivos
     Then el sistema debe mostrar un mensaje de error solicitando al usuario que ingrese su ubicación para obtener recomendaciones adecuadas.
 
     Examples:
-      |  |
-      |  |
+      |  ubicacion      |
+      |        |

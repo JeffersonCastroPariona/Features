@@ -7,8 +7,8 @@ Feature: US-027: Grupos según región o tipo de cultivo
     Then el sistema debe añadir al usuario al grupo y permitirle ver las publicaciones y participar en las discusiones del grupo.
 
     Examples:
-      | grupo_de_interes |
-      | Cultivos en Cajamarca |
+      | grupo_de_interes       |
+      | Cultivos en Cajamarca  |
       | Fertilización orgánica |
 
   Scenario Outline: Escenario 2: Crear un nuevo grupo
@@ -17,6 +17,6 @@ Feature: US-027: Grupos según región o tipo de cultivo
     Then el sistema debe crear el nuevo grupo y permitir al usuario invitar a otros agricultores a unirse, así como publicar contenido en el grupo.
 
     Examples:
-      | nombre_del_grupo | descripcion | tipo_de_cultivo_o_region |
-      | Cultivos Cajamarca | Grupo para discutir cultivos de la región | Cajamarca |
-      | Fertilización Orgánica | Grupo sobre mejores prácticas de fertilización | Fertilización Orgánica |
+      | nombre_del_grupo        | descripcion                                    | tipo_de_cultivo_o_region |  
+      | Cultivos Cajamarca      | Grupo para discutir cultivos de la región      | Cajamarca                |
+      | Fertilización Orgánica  | Grupo sobre mejores prácticas de fertilización | Fertilización Orgánica   |

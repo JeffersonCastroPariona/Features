@@ -7,8 +7,8 @@ Feature: US-035: Sección de Preguntas Frecuentes
     Then el sistema debe mostrar una lista de preguntas comunes y sus respectivas respuestas organizadas por categorías relevantes.
 
     Examples:
-      | categoria | pregunta | respuesta |
-      | Riego | ¿Cada cuánto debo regar mis cultivos? | Depende del clima local |
+      | categoria     | pregunta                              | respuesta                         |
+      | Riego         | ¿Cada cuánto debo regar mis cultivos? | Depende del clima local           |
       | Fertilización | ¿Qué fertilizantes usar para el maíz? | Uso de fertilizantes nitrogenados |
 
   Scenario Outline: Escenario 2: Búsqueda de preguntas específicas
@@ -18,5 +18,5 @@ Feature: US-035: Sección de Preguntas Frecuentes
 
     Examples:
       | termino_de_busqueda |
-      | Fertilización |
-      | Riego |
+      | Fertilización       |
+      | Riego               |

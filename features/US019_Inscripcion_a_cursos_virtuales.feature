@@ -7,9 +7,9 @@ Feature: US-019: Inscripción a cursos virtuales
     Then el sistema debe confirmar la inscripción mostrando un mensaje de éxito, y el estudiante debe recibir un correo electrónico con los detalles del curso y la fecha de inicio.
 
     Examples:
-      | curso_o_webinar | fecha_de_inicio |
-      | Curso de Riego | 2023-06-15 |
-      | Webinar de Fertilización | 2023-07-01 |
+      | curso_o_webinar          | fecha_de_inicio |
+      | Curso de Riego           | 2023-06-15      |
+      | Webinar de Fertilización | 2023-07-01      |
 
   Scenario Outline: Escenario 2: Inscripción a curso lleno o cerrado
     Given que un estudiante está autenticado y desea inscribirse a un curso o webinar de agronomía,
@@ -17,6 +17,6 @@ Feature: US-019: Inscripción a cursos virtuales
     Then el sistema debe mostrar un mensaje indicando que el curso está completo o que las inscripciones están cerradas, sugiriendo otros cursos disponibles o permitiendo que el estudiante se una a una lista de espera.
 
     Examples:
-      | curso_o_webinar | estado |
-      | Curso de Riego | Cerrado |
-      | Webinar de Fertilización | Lleno |
+      | curso_o_webinar          | estado  |
+      | Curso de Riego           | Cerrado |
+      | Webinar de Fertilización | Lleno   |

@@ -7,9 +7,9 @@ Feature: US-028: Creación de eventos locales
     Then el sistema debe guardar el evento y enviar notificaciones a otros agricultores de la región invitándolos a participar.
 
     Examples:
-      | nombre_del_evento | fecha | hora | ubicacion | descripcion |
-      | Capacitación en Riego | 2023-06-15 | 10:00 | Cajamarca | Evento sobre técnicas de riego |
-      | Fertilización Eficaz | 2023-06-20 | 14:00 | Cusco | Taller de fertilización orgánica |
+      | nombre_del_evento     | fecha        | hora      | ubicacion | descripcion                      |
+      | Capacitación en Riego | 2023-06-15   | 10:00     | Cajamarca | Evento sobre técnicas de riego   |
+      | Fertilización Eficaz  | 2023-06-20   | 14:00     | Cusco     | Taller de fertilización orgánica |
 
   Scenario Outline: Escenario 2: Participacion en un evento existente
     Given que un agricultor está autenticado y navega por los eventos locales disponibles,
@@ -17,6 +17,6 @@ Feature: US-028: Creación de eventos locales
     Then el sistema debe confirmar la inscripción del agricultor en el evento y permitirle recibir recordatorios y actualizaciones sobre el mismo.
 
     Examples:
-      | evento_de_interes |
+      | evento_de_interes     |
       | Capacitación en Riego |
-      | Fertilización Eficaz |
+      | Fertilización Eficaz  |

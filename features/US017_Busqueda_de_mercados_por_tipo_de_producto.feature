@@ -7,9 +7,9 @@ Feature: US-017: Búsqueda de mercados por tipo de producto
     Then el sistema debe mostrar una lista de mercados que coincidan con los criterios de búsqueda, junto con detalles como ubicación, tamaño y condiciones de venta.
 
     Examples:
-      | producto | ubicacion | tamano_del_mercado |
-      | Frutas | Cajamarca | Grande |
-      | Verduras | Lima | Pequeño |
+      | producto | ubicacion   | tamano_del_mercado |
+      | Frutas   | Cajamarca   | Grande             |
+      | Verduras | Lima        | Pequeño            |
 
   Scenario Outline: Escenario 2: Búsqueda sin resultados
     Given que un agricultor está autenticado y realiza una búsqueda de mercados por un tipo de producto específico,

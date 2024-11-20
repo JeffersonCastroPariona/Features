@@ -8,7 +8,7 @@ Feature: US-011: Recordatorios de actividades agrícolas
 
     Examples:
       | tarea | fecha_programada | hora_programada |
-      | Riego | 2023-04-10 | 08:00 |
+      | Riego | 2023-04-10       | 08:00           |
 
   Scenario Outline: Escenario 2: Recepción de recordatorio para fertilización
     Given que un agricultor está autenticado y ha programado tareas de fertilización en el sistema,
@@ -16,5 +16,5 @@ Feature: US-011: Recordatorios de actividades agrícolas
     Then el sistema debe enviar una notificación al agricultor a través de la aplicación y/o un correo electrónico recordándole que es hora de fertilizar sus cultivos.
 
     Examples:
-      | tarea | fecha_programada | hora_programada |
-      | Fertilización | 2023-04-15 | 10:00 |
+      | tarea         | fecha_programada | hora_programada |
+      | Fertilización | 2023-04-15       | 10:00           |

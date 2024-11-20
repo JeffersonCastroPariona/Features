@@ -7,9 +7,9 @@ Feature: US-016: Directorio de mercados locales
     Then el sistema debe mostrar un directorio con información detallada de cada mercado, incluyendo nombre, ubicación, horario de operación y tipos de productos que se pueden vender.
 
     Examples:
-      | mercado | ubicacion | horario_de_operacion | productos_permitidos |
-      | Mercado 1 | Cajamarca | 8 AM - 5 PM | Frutas, Verduras |
-      | Mercado 2 | Lima | 7 AM - 6 PM | Legumbres, Cereales |
+      | mercado   | ubicacion | horario_de_operacion | productos_permitidos |
+      | Mercado 1 | Cajamarca | 8 AM - 5 PM          | Frutas, Verduras |
+      | Mercado 2 | Lima      | 7 AM - 6 PM          | Legumbres, Cereales |
 
   Scenario Outline: Escenario 2: Filtrado del directorio por ubicación
     Given que un agricultor está autenticado y accede a la sección de directorio de mercados,
@@ -19,4 +19,4 @@ Feature: US-016: Directorio de mercados locales
     Examples:
       | ubicacion |
       | Cajamarca |
-      | Lima |
+      | Lima      |

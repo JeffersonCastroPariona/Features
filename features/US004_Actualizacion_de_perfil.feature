@@ -7,9 +7,9 @@ Feature: US-004: Actualización de perfil
     Then el sistema debe guardar los cambios y mostrar un mensaje de confirmación indicando que el perfil se ha actualizado correctamente.
 
     Examples:
-      | nombre | correo_electronico | telefono |
-      | Juan Pérez | juan@dominio.com | 987654321 |
-      | María Gómez | maria@dominio.com | 998877665 |
+      | nombre      | correo_electronico | telefono  |
+      | Juan Pérez  | juan@dominio.com   | 987654321 |
+      | María Gómez | maria@dominio.com  | 998877665 |
 
   Scenario Outline: Escenario 2: Fallo en la actualización de perfil (datos inválidos)
     Given que un usuario está autenticado y quiere modificar su perfil,
@@ -17,6 +17,6 @@ Feature: US-004: Actualización de perfil
     Then el sistema debe mostrar un mensaje de error indicando qué datos son incorrectos o faltantes, y no debe permitir que se guarden los cambios hasta que la información sea válida.
 
     Examples:
-      | nombre | correo_electronico | telefono |
-      | Juan Pérez | juan@dominio.com | abc123 |
-      | María Gómez | maria@dominio.com |  |
+      | nombre      | correo_electronico | telefono |
+      | Juan Pérez  | juan@dominio.com   | abc123   |
+      | María Gómez | maria@dominio.com  |          |

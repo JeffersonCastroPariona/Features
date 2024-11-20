@@ -7,9 +7,9 @@ Feature: US-034: Contacto con soporte técnico
     Then el sistema debe enviar la solicitud al equipo de soporte y mostrar un mensaje de confirmación indicando que la solicitud ha sido recibida y que recibirán una respuesta en breve.
 
     Examples:
-      | descripcion_del_problema |
+      | descripcion_del_problema                |
       | La aplicación se cierra inesperadamente |
-      | No puedo cargar los datos del cultivo |
+      | No puedo cargar los datos del cultivo   |
 
   Scenario Outline: Escenario 2: Visualización del estado de la solicitud
     Given que un usuario ha enviado una solicitud de soporte técnico,
@@ -18,6 +18,6 @@ Feature: US-034: Contacto con soporte técnico
 
     Examples:
       | estado_de_la_solicitud |
-      | Pendiente |
-      | En proceso |
-      | Resuelta |
+      | Pendiente              |
+      | En proceso             |
+      | Resuelta               |

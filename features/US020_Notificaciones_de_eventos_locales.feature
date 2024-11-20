@@ -7,7 +7,7 @@ Feature: US-020: Notificaciones de eventos locales
     Then el sistema debe enviar una notificación al agricultor con los detalles del evento, incluyendo fecha, ubicación y tipo de capacitación.
 
     Examples:
-      | evento | fecha | ubicacion |
+      | evento                | fecha      | ubicacion |
       | Capacitación en Riego | 2023-07-01 | Cajamarca |
 
   Scenario Outline: Escenario 2: Configuración de preferencias para notificaciones de eventos
@@ -17,5 +17,5 @@ Feature: US-020: Notificaciones de eventos locales
 
     Examples:
       | temas_de_interes | ubicacion |
-      | Riego | Cajamarca |
-      | Fertilización | Lima |
+      | Riego            | Cajamarca |
+      | Fertilización    | Lima      |

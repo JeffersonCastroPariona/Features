@@ -7,11 +7,12 @@ Feature: US-033: Configuración de notificaciones
     Then el sistema debe guardar las preferencias y confirmar los cambios con un mensaje.
 
     Examples:
-      | tipo_de_notificacion |
-      | Alertas de clima |
+      | tipo_de_notificacion     |
+      | Alertas de clima         |
       | Recordatorios de eventos |
-      | mensaje esperado |
-      | "Las notificaciones de clima están activadas" |
+      
+      | mensaje esperado         |
+      | "Las notificaciones de clima están activadas"   |
       | "Las notificaciones de eventos están activadas" |
 
   Scenario Outline: Escenario 2: Opción para desactivar notificaciones
@@ -20,9 +21,10 @@ Feature: US-033: Configuración de notificaciones
     Then el sistema debe permitir la desactivación y notificar al usuario que las notificaciones han sido desactivadas según su solicitud.
 
     Examples:
-      | tipo_de_notificacion |
-      | Alertas de clima |
+      | tipo_de_notificacion     |
+      | Alertas de clima         |
       | Recordatorios de eventos |
-      | mensaje esperado |
-      | "Las notificaciones de clima han sido desactivadas" |
+
+      | mensaje esperado                                      |
+      | "Las notificaciones de clima han sido desactivadas"   |
       | "Las notificaciones de eventos han sido desactivadas" |

@@ -8,9 +8,10 @@ Feature: US-032: Elección de idioma
 
     Examples:
       | idioma_seleccionado |
-      | Español |
-      | Quechua |
-      | mensaje esperado |
+      | Español             |
+      | Quechua             |
+
+      | mensaje esperado    |
       | "El idioma se ha cambiado a Español" |
       | "El idioma se ha cambiado a Quechua" |
 
@@ -21,5 +22,5 @@ Feature: US-032: Elección de idioma
 
     Examples:
       | idioma_esperado_despues_de_inicio_de_sesion |
-      | Español |
-      | Quechua |
+      | Español                                     |
+      | Quechua                                     |

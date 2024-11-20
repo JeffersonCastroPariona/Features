@@ -7,9 +7,9 @@ Feature: US-023: Foro de discusión para estudiantes y agricultores
     Then el sistema debe permitir que otros estudiantes y agricultores respondan o colaboren en la discusión, mostrando las respuestas en tiempo real y permitiendo que el autor marque una respuesta como útil o resuelta.
 
     Examples:
-      | tema_agricola | publicacion |
-      | Fertilización orgánica | ¿Qué tipo de fertilizante es más efectivo? |
-      | Control de plagas | ¿Cómo manejar las plagas en cultivos de maíz? |
+      | tema_agricola          | publicacion                                   |
+      | Fertilización orgánica | ¿Qué tipo de fertilizante es más efectivo?    |
+      | Control de plagas      | ¿Cómo manejar las plagas en cultivos de maíz? |
 
   Scenario Outline: Escenario 2: Búsqueda de temas específicos en el foro
     Given que un estudiante está autenticado y busca información en el foro,
@@ -17,6 +17,6 @@ Feature: US-023: Foro de discusión para estudiantes y agricultores
     Then el sistema debe mostrar una lista de discusiones previas que coincidan con el término de búsqueda, permitiendo al estudiante unirse a la discusión o iniciar un nuevo hilo si no encuentra información relevante.
 
     Examples:
-      | termino_de_busqueda |
+      | termino_de_busqueda    |
       | Fertilización orgánica |
-      | Control de plagas |
+      | Control de plagas      |

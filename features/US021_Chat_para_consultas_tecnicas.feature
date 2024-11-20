@@ -7,8 +7,8 @@ Feature: US-021: Chat para consultas técnicas
     Then el sistema debe conectar al agricultor con un asesor o asistente automatizado, proporcionando una respuesta clara y relevante a la consulta dentro de un tiempo razonable.
 
     Examples:
-      | consulta |
-      | ¿Cómo puedo mejorar el riego? |
+      | consulta                        |
+      | ¿Cómo puedo mejorar el riego?   |
       | ¿Cuál es el mejor fertilizante? |
 
   Scenario Outline: Escenario 2: Chat fuera de horario de atención
@@ -17,5 +17,5 @@ Feature: US-021: Chat para consultas técnicas
     Then el sistema debe notificar que el chat está fuera de servicio temporalmente y ofrecer la opción de enviar la consulta por correo electrónico o acceder a una base de conocimientos con respuestas frecuentes.
 
     Examples:
-      |  |
-      |  |
+      |   outtime  |
+      |     -       |

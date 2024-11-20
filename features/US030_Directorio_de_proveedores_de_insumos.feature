@@ -8,8 +8,8 @@ Feature: US-030: Directorio de proveedores de insumos
 
     Examples:
       | categoria_de_insumo |
-      | Semillas |
-      | Fertilizantes |
+      | Semillas            |
+      | Fertilizantes       |
 
   Scenario Outline: Escenario 2: Visualización de detalles del proveedor
     Given que un agricultor está navegando en el directorio de proveedores,
@@ -18,4 +18,4 @@ Feature: US-030: Directorio de proveedores de insumos
 
     Examples:
       | Proveedor | informacion_contacto | productos_ofrecidos | Impacto_cliente |
-      | sdsd | 565665656 | hrt,hjt | positivo |
+      | XYZ       | 565665656            | hrt,hjt             | positivo        |

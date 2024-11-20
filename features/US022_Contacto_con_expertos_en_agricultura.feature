@@ -7,9 +7,9 @@ Feature: US-022: Contacto con expertos en agricultura
     Then el sistema debe mostrar una lista de expertos disponibles y permitir al usuario enviar una solicitud de asesoramiento, que incluirá el problema o pregunta específica.
 
     Examples:
-      | especialidad |
-      | Fertilización |
-      | Riego |
+      | especialidad   |
+      | Fertilización  |
+      | Riego          |
 
   Scenario Outline: Escenario 2: Asesoramiento no disponible en la especialidad seleccionada
     Given que un usuario está autenticado y desea contactar a un experto en una especialidad agrícola,
@@ -17,6 +17,6 @@ Feature: US-022: Contacto con expertos en agricultura
     Then el sistema debe mostrar un mensaje indicando que no hay expertos en esa área en ese momento y ofrecer la opción de recibir una notificación cuando esté disponible o sugerir temas relacionados con expertos accesibles.
 
     Examples:
-      | especialidad |
+      | especialidad      |
       | Control de plagas |
-      | Genética vegetal |
+      | Genética vegetal  |
