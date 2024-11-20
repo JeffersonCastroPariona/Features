@@ -1,0 +1,1247 @@
+---
+- name: 'a feature file named "p1" with content:'
+  uid: 564e028d-bf02-4fc1-8595-1646ac09d050
+  parameters:
+  - name: p1
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" imports the feature file "p2" to folder "p3"'
+  uid: b4a10708-19ff-40e2-be0f-b24593f34ae9
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a folder "p2" under the folder "p3" with the scenarios:'
+  uid: 28159447-4e93-4105-8559-be62a6c0c844
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: two scenarios
+  uid: 65169334-d915-4c30-b1aa-75fa46d8e6ff
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" renames globally the step "p2"response"p3" by "p4"response"p5"'
+  uid: 6aad9ada-4f50-4375-acad-d72edf488f8e
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the scenarios using step "p1"response"p2" should be:'
+  uid: e3291710-9ddf-4185-8d72-4a80cf5ccefe
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob creates a new step "p1"day"p2"
+  uid: 27c84228-2f09-44f5-92de-40269a0f1988
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: changes the two scenarios as
+  uid: e3e00aaf-7892-4e04-a540-4350c5733a88
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob has only the step "p1"day"p2" to maintain instead of these two
+  uid: af4390f5-9a5e-4e5d-9911-e57c956c8712
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" adds a new scenario "p2" with the content'
+  uid: 51ff3407-ab4d-4b37-8de7-f9e15b492cb5
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the datatable
+  uid: 704325d8-38a3-4853-9d65-080e6df858dd
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" has a scenario "p2" to describe the same behaviour than these scenarios'
+  uid: 27bf1841-9aac-4b0e-9820-be1e137f8861
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a folder "p1" with the scenarios:'
+  uid: 348fef04-afff-4c5b-847c-f6b787ce0578
+  parameters:
+  - name: p1
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" download folder "p2"'
+  uid: 5a7584c5-a8f8-4c13-bdfd-9c9bc3fa04d5
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a feature file "p2" with content:'
+  uid: 9138b1be-9c9a-4979-b70d-adf86edf08e3
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que el usuario es nuevo en la plataforma
+  uid: cca212de-415c-431a-b52a-28e6647f9a84
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario introduce su correo electrónico y número de celular en el formulario
+    de registro
+  uid: e192b3ca-f137-4fd7-ab18-e3a37febeb4b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema almacena la información y envía un correo de confirmación al usuario
+  uid: 665614c3-2149-4304-8dff-f70902d8f5fa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Y el usuario es redirigido a la página de inicio de sesión después de completar
+    el registro.
+  uid: 92b3c281-392e-473c-85be-dc4171fbfb86
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario registrado ingresa correctamente su correo electrónico y contraseña,
+  uid: b88b82c0-6fb8-49e5-bc8e-61b31ca49a4c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: presiona el botón "p1",
+  uid: 96123db9-8759-4840-9a3f-e55ae30caeb1
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe autenticar las credenciales y permitir al usuario acceder
+    a su cuenta mostrándole el panel principal.
+  uid: fdb066b6-b752-4e2a-9761-3f34f03aa54c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario registrado ingresa una contraseña incorrecta,
+  uid: 9b63c4d6-ef5d-48cb-93ca-68c1bcc31c39
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error indicando que las credenciales
+    son incorrectas y no debe permitir el acceso a la cuenta.
+  uid: 0f77656f-cd19-4c4f-b84c-5e35f913ab72
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario ha olvidado su contraseña y está en la pantalla de inicio de
+    sesión,
+  uid: b9fd53ec-50d8-4f41-8305-9b8fb5ef988e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario hace clic en el enlace "p1", ingresa su dirección de correo electrónico
+    registrada y presiona el botón "p2",
+  uid: e7815287-62ea-4976-916b-f227c3b2f9e7
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar un correo electrónico con un enlace de recuperación
+    de contraseña al usuario, y mostrar un mensaje indicando que las instrucciones
+    han sido enviadas a su correo.
+  uid: f3c5d0a1-1253-42ed-8ba0-6b1a58263127
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario intenta recuperar su contraseña,
+  uid: de074575-e3f7-460c-8d8d-bc56b8a8d7be
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: ingresa una dirección de correo electrónico que no está registrada en el sistema
+    y presiona el botón "p1",
+  uid: 3e5c6ba5-fda3-47e7-baee-eac963986b65
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error indicando que no existe ninguna
+    cuenta asociada a ese correo y no debe enviar el enlace de recuperación.
+  uid: 0b6200f8-11e8-4513-a188-c41df4cc681c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y quiere modificar su perfil,
+  uid: 46a54380-2a25-4cad-a8d2-e74511c64c73
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: "el usuario ingresa a la sección \"p1\", actualiza su información personal
+    y preferencias, y presiona el botón \"p2\",\t\t\t\t\t\t Then el sistema debe guardar
+    los cambios y mostrar un mensaje de confirmación indicando que el perfil se ha
+    actualizado correctamente."
+  uid: bc928386-8f77-4240-8ece-18caa4efe3f3
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario ingresa a la sección "p1", actualiza su información personal y
+    preferencias, y presiona el botón "p2",
+  uid: fbe7da02-91f7-4908-bed9-4f93d0635e56
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe guardar los cambios y mostrar un mensaje de confirmación indicando
+    que el perfil se ha actualizado correctamente.
+  uid: 9a75f105-f86e-4d5f-9a03-f76649e771f6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario intenta guardar cambios con información incompleta o no válida
+    (como un correo electrónico con formato incorrecto),
+  uid: 46851dbc-fb41-4486-be15-334d5e6d89ee
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error indicando qué datos son incorrectos
+    o faltantes, y no debe permitir que se guarden los cambios hasta que la información
+    sea válida.
+  uid: b6900159-27ae-4609-8183-3722af29187d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y quiere registrar información sobre sus
+    cultivos,
+  uid: 56a657e8-2772-472c-b342-47460ea754e4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe guardar la información ingresada y mostrar un mensaje de confirmación
+    indicando que los datos del cultivo se han registrado exitosamente.
+  uid: 391a0f9f-3fea-4122-8ff6-d14d48278357
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor ingresa datos como el tipo de cultivo, fecha de siembra, ubicación,
+    y estado de crecimiento, y presiona el botón "p1",
+  uid: e1db25a5-a1ef-4ffd-b34c-4236fce6e506
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta guardar datos incompletos o inválidos (como una fecha
+    de siembra futura),
+  uid: a7bc1fa0-7ac4-48e5-8a4e-e4b14a0f451e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error indicando qué información es incorrecta
+    o faltante, y no debe permitir que se guarden los datos hasta que la información
+    sea válida.
+  uid: 2f816bc3-c1cb-478d-a149-d528e1c8cbde
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha proporcionado su ubicación,
+  uid: bb202a9a-06ce-4f34-a2ff-e1bac195da64
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la sección de recomendaciones de cultivos,
+  uid: 48f3f5d2-86dc-4354-b479-19e524cb9712
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de cultivos recomendados según la región,
+    las condiciones climáticas actuales y la temporada del año.
+  uid: 0d4096be-d1f4-43a6-8e55-0416189af28a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor no ha proporcionado su ubicación,
+  uid: 98bdbdef-e62c-4a8b-b0bc-ec4960f0d08a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta acceder a la sección de recomendaciones de cultivos,
+  uid: 38b7e50c-f860-4b2d-ada8-e9480467c7da
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error solicitando al usuario que ingrese
+    su ubicación para obtener recomendaciones adecuadas.
+  uid: 47b6e1a9-ef73-4024-9b1d-ab022c42f4db
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y quiere acceder a la base de datos,
+  uid: 91c84417-c28f-44bc-9e0b-3cc6c6216a45
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor busca prácticas agrícolas sostenibles utilizando filtros como
+    tipo de cultivo, región, o tipo de práctica,
+  uid: 546aaf1d-e068-4490-8c7f-4d1bfcaee414
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de prácticas que cumplan con los criterios
+    de búsqueda, incluyendo descripciones y beneficios.
+  uid: 603cccaa-cc4c-4480-bcb8-ffb0105748c7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y realiza una búsqueda en la base de datos,
+  uid: 89672286-36c5-4485-bf78-17f7ba1170df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor utiliza criterios de búsqueda que no coinciden con ninguna práctica
+    registrada,
+  uid: acaa5b91-5cac-4799-9186-3bd9d562d620
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que no se encontraron resultados
+    y sugerir al usuario que intente con diferentes criterios.
+  uid: b2e97225-e370-43e5-94a0-030677192983
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y navega a la sección de artículos,
+  uid: 825fb10d-4f6d-4ac5-afe1-c13b1fef321b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante busca artículos utilizando filtros como tipo de tecnología,
+    autor, o fecha de publicación,
+  uid: 39994fd2-7b9f-463f-9628-faa1e2479bde
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de artículos que coincidan con los criterios
+    de búsqueda, incluyendo títulos, resúmenes y enlaces para leer más.
+  uid: b43ca714-8adc-44c4-a875-8464bf2e64df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y realiza una búsqueda en la sección de
+    artículos,
+  uid: 9d82fa9e-4a3a-4b69-9aec-d921d5620160
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante utiliza criterios de búsqueda que no coinciden con ningún artículo
+    registrado,
+  uid: 4131e566-463a-495a-aef1-b0f4f5f99831
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que no se encontraron resultados
+    y sugerir al estudiante que intente con diferentes criterios.
+  uid: 4fabee82-5824-4188-ab00-b0a883d0f9b9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y tiene acceso a la sección de monitoreo,
+  uid: d82e2b40-314b-4f86-810e-cdf9b68fdaab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor ingresa datos sobre el uso de agua y fertilizantes en sus cultivos,
+  uid: 171508e2-23c1-4133-8095-7e5166c55a88
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un resumen del uso de recursos, incluyendo gráficos
+    y recomendaciones para optimizar su consumo.
+  uid: 17925e8f-85cb-4271-81c0-e165370eca35
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea registrar el uso de recursos,
+  uid: ff5927c2-f771-46a8-ad83-29be8a89729f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta guardar datos incompletos o inválidos (como cantidades
+    negativas o fechas no válidas),
+  uid: 444122bc-c52c-41d6-9c1b-ab2e40fbbdf9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha configurado los niveles óptimos de
+    recursos en el sistema,
+  uid: b5606887-9e2d-46ae-aa8b-a3c71783da5f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: los niveles de agua o fertilizantes caen por debajo del umbral establecido,
+  uid: df930db0-534a-4f5a-a1ae-54cbf4f16152
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una alerta al agricultor a través de una notificación
+    en la aplicación y/o un correo electrónico, informando sobre la deficiencia.
+  uid: b9af28f3-6842-4d01-862f-a3eff92bd036
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: los niveles de agua o fertilizantes superan el umbral establecido,
+  uid: 4766789c-b5e3-4f08-a085-15f2153ff4d5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una alerta al agricultor a través de una notificación
+    en la aplicación y/o un correo electrónico, informando sobre el exceso.
+  uid: 1656cef5-1ef3-42e2-afae-80817e782bd6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha programado tareas de riego en el sistema,
+  uid: e48fce9c-2093-4158-9d55-13f9da4b8631
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: llega el momento programado para el riego,
+  uid: 1d2263be-4ed9-411d-af87-1bd201b6fdae
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una notificación al agricultor a través de la aplicación
+    y/o un correo electrónico recordándole que es hora de regar sus cultivos.
+  uid: 0d4cf830-642c-488f-82a7-6e35e7c1f846
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha programado tareas de fertilización
+    en el sistema,
+  uid: effa14e2-2734-4a08-a2ea-e8c0d890cf70
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: se acerca la fecha programada para la fertilización,
+  uid: bc7971de-3032-4fb0-8f3a-54e901bb22f4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una notificación al agricultor a través de la aplicación
+    y/o un correo electrónico recordándole que es hora de fertilizar sus cultivos.
+  uid: 994ca541-ee8e-4cda-b531-399cb5645683
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea registrar datos sobre el crecimiento
+    de sus cultivos,
+  uid: 3e2bb8e5-a467-426c-bed4-6a4612f88701
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor ingresa información como la altura de las plantas, el estado
+    de salud, y la fecha de registro, y presiona el botón "p1",
+  uid: 3488129e-d3ee-4b13-9320-fa0d42bb4977
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe almacenar la información ingresada y mostrar un mensaje de
+    confirmación indicando que los datos se han registrado exitosamente.
+  uid: 16690631-b80a-4b14-ab41-e593794c470a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y intenta registrar datos de crecimiento,
+  uid: '0688201b-a973-4ee3-be59-01af0a098677'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta guardar la información con campos obligatorios vacíos
+    o con datos inválidos (como valores negativos para la altura),
+  uid: 22b52b9a-2f88-4ea1-b1e5-7ed336416a18
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje de error indicando qué datos son incorrectos
+    o faltantes, y no debe permitir que se guarden los datos hasta que la información
+    sea válida.
+  uid: 93393177-4e23-4dff-93e4-3c08350bff1b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y tiene datos registrados sobre el uso
+    de recursos,
+  uid: '0862daa4-4130-4531-8d5e-5b30bea69c35'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un gráfico que represente el historial de uso de agua
+    y fertilizantes, permitiendo al agricultor observar las tendencias a lo largo
+    del tiempo.
+  uid: 0cc7971f-ca39-490a-818e-1bf30d63dbc9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la sección de visualización de gráficos y selecciona
+    "p1",
+  uid: 741cb9f5-c94b-4d15-a191-464995f5cbdd
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y tiene datos de rendimiento de cultivos
+    registrados,
+  uid: ecb222fd-e7dc-42a6-8bcc-b9a6cfc7564a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un gráfico que represente el historial de rendimiento
+    de los cultivos, permitiendo al agricultor comparar diferentes cultivos y épocas
+    de crecimiento.
+  uid: 341e3b6c-4a69-4996-9d11-11ec88c23b4a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha registrado datos sobre el rendimiento
+    y los recursos utilizados en sus cultivos,
+  uid: 23fba570-43ae-43a8-80b1-a7fd523c81a4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la sección de análisis y selecciona "p1",
+  uid: 1143b230-45d4-4c95-a966-21754cdc778e
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe proporcionar un análisis que muestre la relación entre el
+    rendimiento de los cultivos y los recursos utilizados, destacando la eficiencia
+    de cada cultivo.
+  uid: 85b305bc-c585-49db-b0ea-89e11b5d88aa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea obtener un análisis de eficiencia,
+  uid: 22c51154-7053-4b2b-9274-027890e3f119
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta acceder a la sección de análisis pero no tiene suficientes
+    datos registrados (como rendimiento o uso de recursos),
+  uid: 07ada414-02ac-4c90-8bd2-26e77f8270b4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que no hay suficientes datos
+    para realizar el análisis y sugerir que registre más información.
+  uid: 9e9ec2cd-bdbe-4a4e-bdd4-9dc0dbebc101
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y tiene acceso a un reporte que desea exportar,
+  uid: e8cd4e1d-bba4-48a1-9b66-83ff57aaff27
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante selecciona la opción "p1" y confirma la acción,
+  uid: 13b303b6-e320-4860-bce6-d91f5de993fa
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe generar un archivo PDF del reporte y permitir que el estudiante
+    lo descargue exitosamente.
+  uid: d68dc02c-362c-40a3-b868-fb250903205f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y tiene acceso a un conjunto de datos que
+    desea exportar,
+  uid: f8408f60-4e0b-4f57-9821-bbafc9e162f0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe generar un archivo Excel del conjunto de datos y permitir
+    que el estudiante lo descargue exitosamente.
+  uid: 43edd001-a6f5-4b80-8949-d51301621efd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y navega a la sección de directorio de
+    mercados,
+  uid: 1759638c-f9a3-4683-b92a-01e48f216bc3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la lista de mercados locales,
+  uid: 4d56e32d-9689-4b7f-a6ca-18ca7e4bafaa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un directorio con información detallada de cada mercado,
+    incluyendo nombre, ubicación, horario de operación y tipos de productos que se
+    pueden vender.
+  uid: 437fa4cf-ef09-40a8-9aee-a1332de7d45c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y accede a la sección de directorio de
+    mercados,
+  uid: c7c9d504-56d2-4779-bc9d-5260c89ce8df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor aplica un filtro de búsqueda por ubicación (como ciudad o región),
+  uid: f4fe07c6-4293-44ed-8624-f134f671e475
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar solo los mercados locales que se encuentren dentro
+    de la ubicación seleccionada, y actualizar la lista de acuerdo con el filtro aplicado.
+  uid: d1a2693f-0c9c-4126-8264-5593a83c93a0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y accede a la sección de búsqueda de mercados,
+  uid: dc2e3768-b284-4439-ac0b-7432c404ac06
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor selecciona un tipo de producto agrícola y aplica los filtros
+    disponibles (como ubicación, tamaño del mercado y demanda),
+  uid: 6ea7fff1-ccee-4c0c-9ba6-8f53cee326c8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de mercados que coincidan con los criterios
+    de búsqueda, junto con detalles como ubicación, tamaño y condiciones de venta.
+  uid: 9ed04831-3a50-4d79-90fa-165ada445d73
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y realiza una búsqueda de mercados por
+    un tipo de producto específico,
+  uid: deb56bc5-ffd5-40d3-bf05-6f76df285c71
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor selecciona un producto agrícola para el cual no existen mercados
+    disponibles,
+  uid: 29e6f59d-3611-4c82-ab49-566973c61058
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que no se encontraron mercados
+    para ese tipo de producto y sugerir otros productos relacionados o modificar los
+    filtros para obtener más resultados.
+  uid: 74528535-ffdd-475a-ac9f-2b92a0cab623
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y navega a la sección de videos y tutoriales,
+  uid: 9d04c090-40d5-41b8-8288-a2239e9c0a11
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona una categoría de prácticas agrícolas (como riego, fertilización,
+    control de plagas),
+  uid: 2cd2e9d8-171a-42d1-b88e-72a457cfc852
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de videos y tutoriales relacionados con
+    esa categoría, permitiendo al usuario ver los contenidos directamente desde la
+    plataforma.
+  uid: cba986cb-4935-4b87-b5d0-85ddf166cf87
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y desea buscar videos o tutoriales específicos,
+  uid: 2f459720-4769-49ba-91c3-1ff8df2836cc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario ingresa un término de búsqueda relacionado con una práctica agrícola
+    en el buscador (por ejemplo, "p1"),
+  uid: b2dc8b4f-69e2-419b-8e71-03d3a6cbbf3f
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de videos relevantes que coincidan con el
+    término de búsqueda, proporcionando opciones filtradas para facilitar el acceso
+    al contenido.
+  uid: 3b2c67fb-30af-40df-8fe5-5a407aaac2b0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y navega a la sección de cursos virtuales,
+  uid: 3e2e362d-d3b8-4dd6-8bd3-878ffada6779
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante selecciona un curso o webinar de agronomía y hace clic en "p1",
+  uid: 3a8ce4fb-22ba-446f-ad91-59e3987fbddd
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe confirmar la inscripción mostrando un mensaje de éxito, y
+    el estudiante debe recibir un correo electrónico con los detalles del curso y
+    la fecha de inicio.
+  uid: a248a021-c495-4ae6-a484-29afe28a5e5c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y desea inscribirse a un curso o webinar
+    de agronomía,
+  uid: f9dfc9a7-b4d0-4e31-a95e-891a7950b707
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante intenta inscribirse en un curso que ya está lleno o cuya fecha
+    de inscripción ha expirado,
+  uid: 07d1cef6-47a7-43c8-9700-26bb88fb3e02
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que el curso está completo o
+    que las inscripciones están cerradas, sugiriendo otros cursos disponibles o permitiendo
+    que el estudiante se una a una lista de espera.
+  uid: 41a4e41a-8a4f-4f7b-a29e-01b70acf7458
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha habilitado las notificaciones de eventos,
+  uid: ae2ff5ba-50c7-4dc5-85f2-9b23fd8e942c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: un evento local de capacitación agrícola relacionado con los intereses o ubicación
+    del agricultor es programado,
+  uid: ceb47d5f-ea0a-49c2-80d2-9edaa7229c03
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una notificación al agricultor con los detalles del
+    evento, incluyendo fecha, ubicación y tipo de capacitación.
+  uid: 46795c9b-55ec-4bb4-b0d8-870ab5405f0e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea recibir notificaciones solo sobre
+    eventos específicos,
+  uid: 0ebe21b4-8274-486c-8b6f-0c64b498f458
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la configuración de notificaciones y selecciona las
+    preferencias de temas de interés o áreas geográficas,
+  uid: db92521d-12ef-406e-8560-657b661a548a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe ajustar las notificaciones para que el agricultor solo reciba
+    alertas sobre los eventos que coincidan con las preferencias configuradas.
+  uid: e380f87f-a745-464a-bfb7-34b0fa84a3ff
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y necesita asesoramiento técnico,
+  uid: 0fa0c9c8-2ac7-478f-85cd-3fd36315ab9f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor abre el chat de soporte técnico y escribe una consulta,
+  uid: f9a4fdd0-d9e7-4a76-81cd-306792fbf06e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe conectar al agricultor con un asesor o asistente automatizado,
+    proporcionando una respuesta clara y relevante a la consulta dentro de un tiempo
+    razonable.
+  uid: 0e69aa51-e5ac-4b80-80ec-98477d9ddd8c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y necesita hacer una consulta técnica,
+  uid: 66e1cf14-1395-4283-b4e9-9e0689848458
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor intenta usar el chat fuera del horario de atención del soporte
+    técnico en vivo,
+  uid: 869a67de-a44d-4937-a6d5-3bab2fa12caf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe notificar que el chat está fuera de servicio temporalmente
+    y ofrecer la opción de enviar la consulta por correo electrónico o acceder a una
+    base de conocimientos con respuestas frecuentes.
+  uid: 25fca88c-68f4-4f5c-a914-6425da7a9b59
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y desea contactar a un experto,
+  uid: 864b161f-fe06-4c4c-9c8d-61535e2f62c3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona la opción de contactar a un experto y elige una especialidad
+    agrícola,
+  uid: b76ddab9-3532-49c6-8255-beceb3807fd9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de expertos disponibles y permitir al usuario
+    enviar una solicitud de asesoramiento, que incluirá el problema o pregunta específica.
+  uid: '018a8509-1a73-4b12-a764-45655e377c07'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y desea contactar a un experto en una especialidad
+    agrícola,
+  uid: 6986e207-f803-4aa1-b304-09dd6083c628
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona una especialidad para la cual no hay expertos disponibles,
+  uid: d1c5b930-1990-4d9e-a8a3-954759c7aa78
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar un mensaje indicando que no hay expertos en esa área
+    en ese momento y ofrecer la opción de recibir una notificación cuando esté disponible
+    o sugerir temas relacionados con expertos accesibles.
+  uid: e8c5efdf-c55a-4814-8ea0-2a3fda236030
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y accede a la sección de foros,
+  uid: b158433a-a47f-49ca-b790-7d60c51d927f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante selecciona un tema agrícola de interés y publica una pregunta
+    o comentario,
+  uid: e06296bf-4fb2-424d-8fd0-c64cfbb236ea
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe permitir que otros estudiantes y agricultores respondan o
+    colaboren en la discusión, mostrando las respuestas en tiempo real y permitiendo
+    que el autor marque una respuesta como útil o resuelta.
+  uid: 5728dca0-f2cc-422c-88e3-57b9f42adb23
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y busca información en el foro,
+  uid: 19866aa4-f857-4e19-acbd-90e78154b62b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante ingresa un término de búsqueda relacionado con un tema agrícola
+    (por ejemplo, "p1" o "p2"),
+  uid: e72c9a25-249c-4540-aa76-e884b8b2658f
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de discusiones previas que coincidan con
+    el término de búsqueda, permitiendo al estudiante unirse a la discusión o iniciar
+    un nuevo hilo si no encuentra información relevante.
+  uid: 3bf6fec3-8110-43be-a98c-62889a723519
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y tiene habilitada la opción de recibir alertas
+    meteorológicas,
+  uid: 1d5be36e-e74e-4a14-8eb9-5d581c3ae216
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona su ubicación o permite que el sistema determine su ubicación
+    automáticamente,
+  uid: 247bdf65-cbaf-4918-9dbc-164f81d3ad95
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar actualizaciones diarias sobre las condiciones meteorológicas
+    (como temperatura, precipitaciones y humedad) para la ubicación seleccionada,
+    incluyendo pronósticos a corto y largo plazo.
+  uid: ebf72c2e-b803-47df-ad65-a89f69d82081
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y ha activado las alertas de cambios climáticos,
+  uid: 9952023b-e9cb-4d28-b1b0-2ef89681ccb8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: se detecta un cambio brusco en las condiciones meteorológicas (como tormentas,
+    heladas o sequías) en la ubicación del usuario,
+  uid: d5b1178f-9efd-45ce-9e7a-3a342b79d68d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una notificación inmediata al usuario con detalles
+    sobre el cambio y recomendaciones sobre cómo ajustar las actividades agrícolas
+    según el nuevo pronóstico.
+  uid: 5d42d9f1-8f49-4135-b640-306b9b1583ba
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y ha habilitado las alertas meteorológicas,
+  uid: d694e7ac-dd1b-43ee-862d-a31eaf1952c4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema detecta condiciones climáticas adversas como tormentas, granizo
+    o heladas en la ubicación del agricultor,
+  uid: b20f924c-a9e6-483d-b18b-9db7f2b5189e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar una notificación inmediata al agricultor con detalles
+    de las condiciones y sugerencias sobre las acciones preventivas que se pueden
+    tomar para proteger los cultivos.
+  uid: 4edbf672-eeae-4afe-a1bd-9495c68aadc3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea recibir solo ciertos tipos de alertas,
+  uid: 0bc7d435-2195-4b5c-8092-edc5e9b9a2c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor accede a la configuración de alertas y selecciona las condiciones
+    climáticas de interés (por ejemplo, heladas, sequías, tormentas),
+  uid: 8fb95ab0-3379-424d-8c9e-f87f5d942988
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe ajustar las notificaciones para que solo se envíen alertas
+    relacionadas con las condiciones seleccionadas.
+  uid: 138bc6e3-83a8-4716-92d8-b48845c92403
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y desea consultar informes de clima,
+  uid: abc27112-f236-4ab3-a7d7-3412289f2478
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante selecciona un cultivo y un período de tiempo en la sección de
+    informes,
+  uid: ae5d1da7-0496-43f5-9ffa-2066912e6fe3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe generar un informe detallado sobre el impacto de las condiciones
+    climáticas (como precipitaciones, temperatura y humedad) en ese cultivo, mostrando
+    gráficos y datos históricos relevantes.
+  uid: f631ec43-69c7-47a6-8859-39d6a0ac7bef
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un estudiante está autenticado y desea descargar un informe sobre el impacto
+    del clima en los cultivos,
+  uid: 363c4e5b-59e2-4ce1-8e75-c214a1abfae4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estudiante visualiza el informe detallado en la plataforma,
+  uid: 57eb2503-ca7a-4a1d-a346-8810e6bc867a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe permitir la descarga del informe en formato PDF para facilitar
+    su uso en proyectos académicos o estudios.
+  uid: 59165b08-53a5-4949-9d99-b22ecaf11ad6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y navega por la sección de grupos,
+  uid: bdc8ab92-070b-4fff-96d2-dd6f623ab617
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario encuentra un grupo que le interesa, ya sea por región o tipo de
+    cultivo, y hace clic en "p1",
+  uid: 8e982f5e-de00-4ce0-8601-5aebcae9b493
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe añadir al usuario al grupo y permitirle ver las publicaciones
+    y participar en las discusiones del grupo.
+  uid: f8243cbe-65fc-4acf-b4e9-1b010285f9f2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y desea compartir experiencias sobre un tipo
+    de cultivo específico o en una región particular,
+  uid: fe074566-9f55-442f-a91d-d146b5ebc7f4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona la opción de "p1" y completa la información requerida
+    (nombre del grupo, descripción, tipo de cultivo o región),
+  uid: b323a381-ec24-4b00-a87d-fefd3fb80f5b
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe crear el nuevo grupo y permitir al usuario invitar a otros
+    agricultores a unirse, así como publicar contenido en el grupo.
+  uid: d40d2751-ef28-497f-8a79-e4ff576d54a9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y desea organizar un evento,
+  uid: bb3a09da-e3b8-4cfa-8fdd-b2ed7e9c711b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor selecciona la opción de "p1" y completa la información necesaria
+    (nombre del evento, fecha, hora, ubicación y descripción),
+  uid: 5d3490dc-1e86-4047-9ec1-b80169a80f46
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe guardar el evento y enviar notificaciones a otros agricultores
+    de la región invitándolos a participar.
+  uid: 7390dfe6-e7fe-4a1f-b3ad-e0c0125e38c7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y navega por los eventos locales disponibles,
+  uid: eeec48ee-4ec6-42ef-b858-15b9cafa1ae1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor encuentra un evento que le interesa y hace clic en "p1",
+  uid: 4bc9787d-c3ee-4265-ab53-e3a3dc20bc8f
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe confirmar la inscripción del agricultor en el evento y permitirle
+    recibir recordatorios y actualizaciones sobre el mismo.
+  uid: c3d2a9ff-3960-439a-a623-5df2bbe62aab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y desea compartir fotos de sus cultivos,
+  uid: 8dbdbfa8-4265-433d-8ca6-9615aaf674b1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona la opción de "p1" y sube una imagen junto con una descripción
+    de los cultivos,
+  uid: 9b82486f-8db2-428c-9bd1-d925c23155c9
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe publicar la foto en el feed de la comunidad, permitiendo que
+    otros usuarios comenten y den retroalimentación.
+  uid: d6bdfd1d-3a9c-4e6c-8445-5f79371b0c6c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y ha compartido previamente resultados de
+    sus cultivos,
+  uid: 5d9e4b50-e28d-4c37-8993-5f649998f6bd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: otros usuarios visitan el perfil del agricultor,
+  uid: a7827959-004c-40c8-bb54-85c823393e2a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una sección con las fotos y resultados compartidos,
+    incluyendo las descripciones y comentarios de la comunidad.
+  uid: b5c58327-4049-45bc-99c8-695da830ddf1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está autenticado y accede al directorio de proveedores,
+  uid: 700e9f72-95fe-4dfd-baae-fc4c0ebc55f5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor utiliza filtros para buscar proveedores por categoría de insumo
+    (por ejemplo, semillas, fertilizantes, pesticidas),
+  uid: 70d2c718-65ca-4015-9f09-6fad72a6b769
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de proveedores que ofrecen los insumos seleccionados,
+    incluyendo información relevante como precios y ubicaciones.
+  uid: c2f011ea-0874-42e1-932c-eaa5fd3b383e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor está navegando en el directorio de proveedores,
+  uid: ebcb1f93-c4c6-401d-b217-8a00e223450c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor selecciona un proveedor de la lista,
+  uid: 285062d3-f142-4df0-b324-a3301593bc28
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una página con detalles sobre el proveedor, incluyendo
+    información de contacto, productos ofrecidos, y reseñas de otros agricultores.
+  uid: af37e933-b972-48f2-8cb6-ce14407909ec
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor selecciona su región en el filtro de búsqueda,
+  uid: cbe21ebe-4197-4335-9424-09dee77be8ac
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de proveedores que operan en esa región,
+    con información sobre los insumos agrícolas que ofrecen.
+  uid: f00c2e8e-ba6e-40c1-8e70-49653291087c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un agricultor ha aplicado el filtro de región,
+  uid: 13b797d1-17bf-4b60-ba6b-7580c0cc6947
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el agricultor revisa la lista de proveedores,
+  uid: 4de90ec0-136a-4190-8b70-4b08bdeb4394
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe confirmar que todos los proveedores mostrados están ubicados
+    en la región seleccionada, y no debe incluir proveedores de otras regiones.
+  uid: ebea916f-59f2-4843-8480-44e462225850
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y navega por la configuración de la aplicación,
+  uid: 00ffad18-256d-4782-8f34-db3434779176
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona el idioma deseado (español o quechua) y guarda los cambios,
+  uid: 72ea458b-96ff-466d-abd8-ce60c3422e34
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe cambiar el idioma de la interfaz de la aplicación al seleccionado
+    y confirmar el cambio con un mensaje.
+  uid: 13b05eb1-f42a-49fb-acae-de07d550f0fc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario ha seleccionado un idioma y cerrado la aplicación,
+  uid: 2c42fa0c-51d3-4e78-97e5-ea8a9d8a51dc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario vuelve a iniciar sesión,
+  uid: fc9220e7-75ab-4d9e-b0b9-ad680b1cc92c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe recordar la elección de idioma y mostrar la interfaz en el
+    idioma previamente seleccionado.
+  uid: 5ba68397-9d26-45dc-a8ec-0d982ad091e0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'Escenario 2: Opción para desactivar notificaciones'
+  uid: 854025bb-1098-421c-af79-b4f32794e286
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y accede a la sección de configuración de
+    notificaciones,
+  uid: 7806ee68-f119-45c7-a4ea-0a2486b126af
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona las categorías de notificaciones que desea recibir (por
+    ejemplo, alertas de clima, recordatorios de eventos, actualizaciones de proveedores),
+  uid: dfd58967-e3dc-470d-8228-08c7bc55f89e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe guardar las preferencias y confirmar los cambios con un mensaje.
+  uid: 0e42273d-fcdc-46b6-afc5-0c5112374889
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario ha configurado sus preferencias de notificaciones,
+  uid: 99ea4418-5dca-4c69-acab-a725566b4e53
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario decide desactivar todas las notificaciones o alguna categoría específica,
+  uid: 5102aaef-f556-4e74-8bcf-40c6f5d23e73
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe permitir la desactivación y notificar al usuario que las notificaciones
+    han sido desactivadas según su solicitud.
+  uid: ad8627ea-968e-4d80-a64b-9d8351293204
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y experimenta un problema con la aplicación,
+  uid: 1017c000-3183-46e5-bac2-d7fd68c80fe5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario accede a la sección de soporte técnico, completa un formulario
+    de contacto con detalles del problema y presiona "p1",
+  uid: '03390656-c5a0-4abd-a816-47f3ed215326'
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar la solicitud al equipo de soporte y mostrar un mensaje
+    de confirmación indicando que la solicitud ha sido recibida y que recibirán una
+    respuesta en breve.
+  uid: '038eedd7-7e4a-4d08-bfc2-ec56c1a9684e'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario ha enviado una solicitud de soporte técnico,
+  uid: 884cf4e6-0aca-475c-9642-65f1c579eaf7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario accede a la sección de "p1" en la aplicación,
+  uid: d6853fb1-922d-475b-84f4-fa324a8c64ba
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de las solicitudes enviadas, incluyendo
+    el estado actual de cada una (pendiente, en proceso, resuelta) y la opción de
+    agregar comentarios si es necesario.
+  uid: a9aa910d-aada-4742-8fb3-2ce40fda7071
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está navegando por la aplicación,
+  uid: 44cd9e8f-8299-4ea4-9607-bb32f0c2cd80
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario selecciona la opción de "p1" en el menú principal,
+  uid: 718aff0a-eb5d-4f79-af3d-bc1ce3daa145
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar una lista de preguntas comunes y sus respectivas respuestas
+    organizadas por categorías relevantes.
+  uid: cdde2e6c-2aee-4221-b08a-f1d9a99261c5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está en la sección de preguntas frecuentes,
+  uid: ef63cf02-0f28-4c53-89be-30e9cf3fc66f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario utiliza la barra de búsqueda para ingresar una palabra clave relacionada
+    con su problema,
+  uid: 7e52092e-474b-490e-b1e6-ca2af485f6c2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe mostrar las preguntas y respuestas que coinciden con la búsqueda,
+    permitiendo al usuario encontrar la información que necesita de manera eficiente.
+  uid: 6e648c63-7e3a-4f1d-a1e2-7b1d0c12cdfd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está autenticado y encuentra un error en la aplicación,
+  uid: 900780d5-a54c-4d63-89e0-5a12a8119fbe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario accede a la sección de "p1", completa el formulario con los detalles
+    del error y presiona "p2",
+  uid: 8b720a5a-9696-43f6-8934-af2fb4b9e443
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe registrar el reporte y mostrar un mensaje de confirmación
+    indicando que el error ha sido reportado y que recibirán actualizaciones sobre
+    su estado.
+  uid: 6b18d175-e412-4799-a4b1-7cfae3216018
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario ha enviado un reporte de error,
+  uid: 891915c4-903c-4eeb-aeaa-cd127e484736
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el estado del reporte cambia (por ejemplo, de "p1" a "p2" o "p3"),
+  uid: 7c718789-6c01-4710-a381-374feaa17a51
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe enviar notificaciones al usuario informando sobre el cambio
+    de estado y permitiendo que el usuario consulte el estado actual en la sección
+    de "p1".
+  uid: 0061a382-f4c3-4689-b76c-b747e9e7f929
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que se está desarrollando la aplicación,
+  uid: 04cc379a-74e7-41de-911b-9b3cc9a2bf28
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: se implementa el sistema de cifrado para los datos personales de los usuarios
+    en la base de datos,
+  uid: 4f52b033-7cdd-4309-8cc1-8659adde29f3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: todos los datos sensibles (como contraseñas, correos electrónicos y datos
+    de contacto) deben ser almacenados de manera cifrada y no deben ser legibles sin
+    el uso de la clave de cifrado adecuada.
+  uid: 715bd95b-1fd4-459a-8f31-e662aedbbb29
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que los datos personales están cifrados en la base de datos,
+  uid: 82802676-3742-4319-befa-de8b5be178ee
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: un usuario intenta acceder a su información personal,
+  uid: 0a679c03-ef4d-41cb-839e-e17604ca7cd1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe descifrar los datos en tiempo real para mostrarlos en la interfaz
+    de usuario, asegurando que solo los usuarios autenticados y autorizados puedan
+    acceder a su propia información.
+  uid: 66acb588-eeae-48b7-9565-115da9c4e526
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario está utilizando la aplicación en una conexión a Internet limitada,
+  uid: 3548c3a8-7932-42f6-820b-b0a91b2a09c0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario accede a la página de inicio o a cualquier sección de la aplicación,
+  uid: 42f66d79-d2d9-432d-9a0f-72606536f50d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: la aplicación debe cargar completamente en un tiempo máximo de 3 segundos,
+    asegurando que la experiencia de usuario sea fluida.
+  uid: f15633fd-8a0b-4cf6-9814-3d5ae52a2dd7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que la aplicación se está ejecutando en una red con baja velocidad,
+  uid: 60272a65-37f3-4f91-93d4-90b5f9d505a8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: se carga un recurso pesado (como imágenes o datos),
+  uid: 941545fb-ff85-468c-83d5-03f16f7fcdd1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe utilizar técnicas de optimización (como carga diferida o compresión
+    de datos) para reducir el tamaño de los archivos y minimizar el tiempo de carga,
+    manteniendo la usabilidad de la aplicación.
+  uid: 1dabce2f-588e-476e-8910-d3b456da4246
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario tiene la aplicación instalada en su dispositivo móvil,
+  uid: 8c8428bf-acdf-4ff0-a16c-36ddfa875b31
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario abre la aplicación,
+  uid: de1e4ed3-e7e2-438b-9748-53366f8594c0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: la aplicación debe cargarse correctamente y ofrecer todas las funcionalidades
+    disponibles, adaptadas a la interfaz y tamaño de pantalla del dispositivo móvil.
+  uid: 014336f2-6553-40eb-b6b7-947b4d81325c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que un usuario accede a la aplicación a través de un navegador web en su computadora,
+  uid: 94d988c5-83c6-42fa-b1c3-dac64d283c1f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario inicia sesión,
+  uid: 295ecd34-66c3-4703-9d06-a7dbc95fe195
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: la aplicación debe cargarse completamente y permitir el acceso a todas las
+    funcionalidades, asegurando que la experiencia de usuario sea coherente con la
+    versión móvil.
+  uid: 2feee046-ceb2-4636-9765-995ece386f0c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que la aplicación se está utilizando por un número creciente de usuarios,
+  uid: 295b928e-dc48-4194-b9ea-aaf4263aabe8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: la cantidad de usuarios simultáneos aumenta en un 50% en comparación con la
+    carga base,
+  uid: 52b414c1-97cd-4dd0-8e36-68f4d71b3e7f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: la aplicación debe seguir funcionando sin tiempos de carga prolongados o caídas
+    en el servicio, y los recursos del servidor deben ajustarse automáticamente para
+    manejar el aumento.
+  uid: 3609c99a-b8a8-4bd4-bb4c-2b5c9d5d96f9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que la aplicación está implementada en una infraestructura de nube,
+  uid: d132415d-a171-4065-9526-d455574f1536
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: se detecta un aumento significativo en el tráfico,
+  uid: ef4c7e90-20c2-4f60-bf39-6b6bca639786
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema debe poder escalar horizontalmente (añadiendo más instancias de
+    servidor) o verticalmente (mejorando la capacidad de las instancias existentes)
+    de manera automática, sin necesidad de intervención manual.
+  uid: 21166c69-bf26-4de4-a9bc-f21195d753af
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que el usuario no completa todos los campos obligatorios en el formulario
+    de registro
+  uid: 169688e1-f0cf-422e-983d-a553e8bba1e5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el usuario intenta enviar el formulario con información faltante
+  uid: 910c5905-e29e-4a62-96f8-c3d935344099
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: el sistema muestra un mensaje de error indicando qué campos deben completarse.
+  uid: 65350f8b-c818-434e-954e-1b0824fa7e1d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
