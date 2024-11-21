@@ -1,5 +1,6 @@
 Feature: US-036: Reporte de errores
-    Como usuario, quiero reportar errores y recibir actualizaciones sobre su estado, para asegurarme de que los problemas sean atendidos y que pueda conocer el progreso en la resolución.
+    Como usuario, quiero reportar errores y recibir actualizaciones sobre su estado, para asegurarme de que los problemas sean atendidos y que pueda 
+    conocer el progreso en la resolución.
 
   Scenario Outline: Escenario 1: Envío de un reporte de error
     Given que un usuario está autenticado y encuentra un error en la aplicación,
@@ -14,7 +15,8 @@ Feature: US-036: Reporte de errores
   Scenario Outline: Escenario 2: Recepción de actualizaciones sobre el estado del error
     Given que un usuario ha enviado un reporte de error,
     When el estado del reporte cambia (por ejemplo, de "pendiente" a "en proceso" o "resuelto"),
-    Then el sistema debe enviar notificaciones al usuario informando sobre el cambio de estado y permitiendo que el usuario consulte el estado actual en la sección de "Mis reportes".
+    Then el sistema debe enviar notificaciones al usuario informando sobre el cambio de estado y permitiendo que el usuario consulte el estado actual 
+    en la sección de "Mis reportes".
 
     Examples:
       | estado_del_reporte |

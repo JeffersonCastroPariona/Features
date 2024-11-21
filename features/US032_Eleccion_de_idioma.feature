@@ -1,5 +1,6 @@
 Feature: US-032: Elección de idioma
-    Como usuario, quiero elegir el idioma de la aplicación (español, quechua) para una mejor experiencia, permitiéndome interactuar con la plataforma en el idioma que me resulta más cómodo.
+    Como usuario, quiero elegir el idioma de la aplicación (español, quechua) para una mejor experiencia, permitiéndome interactuar con la
+    plataforma en el idioma que me resulta más cómodo.
 
   Scenario Outline: Escenario 1: Selección de idioma en la configuración
     Given que un usuario está autenticado y navega por la configuración de la aplicación,
@@ -11,7 +12,7 @@ Feature: US-032: Elección de idioma
       | Español             |
       | Quechua             |
 
-      | mensaje esperado    |
+      | mensaje esperado                     |
       | "El idioma se ha cambiado a Español" |
       | "El idioma se ha cambiado a Quechua" |
 

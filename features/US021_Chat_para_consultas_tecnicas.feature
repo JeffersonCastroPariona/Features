@@ -14,8 +14,9 @@ Feature: US-021: Chat para consultas técnicas
   Scenario Outline: Escenario 2: Chat fuera de horario de atención
     Given que un agricultor está autenticado y necesita hacer una consulta técnica,
     When el agricultor intenta usar el chat fuera del horario de atención del soporte técnico en vivo,
-    Then el sistema debe notificar que el chat está fuera de servicio temporalmente y ofrecer la opción de enviar la consulta por correo electrónico o acceder a una base de conocimientos con respuestas frecuentes.
+    Then el sistema debe notificar que el chat está fuera de servicio temporalmente y ofrecer la opción de enviar la consulta por correo electrónico o acceder 
+    a una base de conocimientos con respuestas frecuentes.
 
     Examples:
       |   outtime  |
-      |     -       |
+      |     -      |

@@ -14,7 +14,8 @@ Feature: US-022: Contacto con expertos en agricultura
   Scenario Outline: Escenario 2: Asesoramiento no disponible en la especialidad seleccionada
     Given que un usuario está autenticado y desea contactar a un experto en una especialidad agrícola,
     When el usuario selecciona una especialidad para la cual no hay expertos disponibles,
-    Then el sistema debe mostrar un mensaje indicando que no hay expertos en esa área en ese momento y ofrecer la opción de recibir una notificación cuando esté disponible o sugerir temas relacionados con expertos accesibles.
+    Then el sistema debe mostrar un mensaje indicando que no hay expertos en esa área en ese momento y ofrecer la opción de recibir una notificación cuando esté disponible o 
+    sugerir temas relacionados con expertos accesibles.
 
     Examples:
       | especialidad      |

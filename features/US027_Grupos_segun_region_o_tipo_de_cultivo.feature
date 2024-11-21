@@ -1,5 +1,6 @@
 Feature: US-027: Grupos según región o tipo de cultivo
-    Como usuario, quiero unirme a grupos para compartir experiencias con otros agricultores, ya sea por región o por tipo de cultivo, para intercambiar conocimientos y obtener apoyo en mis prácticas agrícolas.
+    Como usuario, quiero unirme a grupos para compartir experiencias con otros agricultores, ya sea por región o por tipo de cultivo, 
+    para intercambiar conocimientos y obtener apoyo en mis prácticas agrícolas.
 
   Scenario Outline: Escenario 1: Unirse a un grupo existente
     Given que un usuario está autenticado y navega por la sección de grupos,

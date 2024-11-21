@@ -19,4 +19,4 @@ Feature: US-010: Alertas de nivel de recursos
     Examples:
       | recurso      | nivel_maximo | nivel_actual |
       | Agua         | 500L         | 600L         |
-      | Fertilizante | 25kg         | 30kg          |
+      | Fertilizante | 25kg         | 30kg         |

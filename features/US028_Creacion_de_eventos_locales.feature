@@ -1,5 +1,6 @@
 Feature: US-028: Creación de eventos locales
-    Como agricultor, quiero crear y participar en eventos locales relacionados con la agricultura, para fomentar la colaboración, compartir conocimientos y mejorar mis prácticas agrícolas.
+    Como agricultor, quiero crear y participar en eventos locales relacionados con la agricultura, para fomentar la colaboración, compartir conocimientos 
+    y mejorar mis prácticas agrícolas.
 
   Scenario Outline: Escenario 1: Creación de un evento local
     Given que un agricultor está autenticado y desea organizar un evento,

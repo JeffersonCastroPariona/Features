@@ -11,7 +11,7 @@ Feature: US-033: Configuración de notificaciones
       | Alertas de clima         |
       | Recordatorios de eventos |
       
-      | mensaje esperado         |
+      | mensaje esperado                                |
       | "Las notificaciones de clima están activadas"   |
       | "Las notificaciones de eventos están activadas" |
 
