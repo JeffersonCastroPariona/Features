@@ -1,5 +1,6 @@
 Feature: US-030: Directorio de proveedores de insumos
-    Como agricultor, quiero acceder a un directorio de proveedores de insumos agrícolas, para encontrar fácilmente productos necesarios para mis cultivos y comparar opciones disponibles en el mercado.
+    Como agricultor, quiero acceder a un directorio de proveedores de insumos agrícolas, para encontrar fácilmente productos necesarios para mis cultivos 
+    y comparar opciones disponibles en el mercado.
 
   Scenario Outline: Escenario 1: Búsqueda de proveedores por categoría
     Given que un agricultor está autenticado y accede al directorio de proveedores,

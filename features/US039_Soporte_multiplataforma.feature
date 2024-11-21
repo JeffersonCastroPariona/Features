@@ -1,10 +1,12 @@
 Feature: US-039: Soporte multiplataforma
-    Como usuario, quiero acceder a la aplicación tanto en dispositivos móviles como en web, para que pueda utilizar la plataforma de manera conveniente en cualquier dispositivo según mi preferencia y necesidad.
+    Como usuario, quiero acceder a la aplicación tanto en dispositivos móviles como en web, para que pueda utilizar la plataforma de manera 
+    conveniente en cualquier dispositivo según mi preferencia y necesidad.
 
   Scenario: Escenario 1: Acceso a la aplicación en dispositivos móviles
     Given que un usuario tiene la aplicación instalada en su dispositivo móvil,
     When el usuario abre la aplicación,
-    Then la aplicación debe cargarse correctamente y ofrecer todas las funcionalidades disponibles, adaptadas a la interfaz y tamaño de pantalla del dispositivo móvil.
+    Then la aplicación debe cargarse correctamente y ofrecer todas las funcionalidades disponibles, adaptadas a la interfaz y tamaño 
+    de pantalla del dispositivo móvil.
 
     | dispositivo móvil   | sistema operativo  | funcionalidad esperada                                    | resultado esperado              |
     | iPhone 12           | iOS                | Acceso a perfil, notificaciones, sección de productos     | Funciones accesibles sin fallos |
@@ -15,9 +17,10 @@ Feature: US-039: Soporte multiplataforma
   Scenario: Escenario 2: Acceso a la aplicación a través de un navegador web
     Given que un usuario accede a la aplicación a través de un navegador web en su computadora,
     When el usuario inicia sesión,
-    Then la aplicación debe cargarse completamente y permitir el acceso a todas las funcionalidades, asegurando que la experiencia de usuario sea coherente con la versión móvil.
+    Then la aplicación debe cargarse completamente y permitir el acceso a todas las funcionalidades, asegurando que la experiencia de 
+    usuario sea coherente con la versión móvil.
 
-    | navegador web       | sistema operativo  | funcionalidad esperada                                     | resultado esperado    |
+    | navegador web       | sistema operativo  | funcionalidad esperada                                     | resultado esperado              |
     | Google Chrome       | Windows 10         | Acceso a perfil, historial, notificaciones                 | Funciones accesibles sin fallos |
     | Mozilla Firefox     | MacOS              | Acceso a carrito de compras, productos favoritos           | Funciones accesibles sin fallos |
     | Safari              | MacOS              | Acceso a configuraciones de cuenta, videos tutoriales      | Funciones accesibles sin fallos |

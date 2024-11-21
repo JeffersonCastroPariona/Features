@@ -4,7 +4,8 @@ Feature: US-025: Alertas sobre condiciones climáticas adversas
   Scenario Outline: Escenario 1: Recepción de alerta por condiciones climáticas adversas
     Given que un agricultor está autenticado y ha habilitado las alertas meteorológicas,
     When el sistema detecta condiciones climáticas adversas como tormentas, granizo o heladas en la ubicación del agricultor,
-    Then el sistema debe enviar una notificación inmediata al agricultor con detalles de las condiciones y sugerencias sobre las acciones preventivas que se pueden tomar para proteger los cultivos.
+    Then el sistema debe enviar una notificación inmediata al agricultor con detalles de las condiciones y sugerencias sobre las acciones preventivas que 
+    se pueden tomar para proteger los cultivos.
 
     Examples:
       | condicion_climatica | ubicacion |

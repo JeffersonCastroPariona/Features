@@ -1,5 +1,6 @@
 Feature: US-029: Compartir fotos y resultados de cultivos
-    Como usuario, quiero compartir fotos y resultados de mis cultivos con la comunidad, para mostrar mis progresos, recibir retroalimentación y aprender de las experiencias de otros agricultores.
+    Como usuario, quiero compartir fotos y resultados de mis cultivos con la comunidad, para mostrar mis progresos, recibir retroalimentación y 
+    aprender de las experiencias de otros agricultores.
 
   Scenario Outline: Escenario 1: Publicación de fotos de cultivos
     Given que un usuario está autenticado y desea compartir fotos de sus cultivos,

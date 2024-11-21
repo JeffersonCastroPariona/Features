@@ -18,4 +18,4 @@ Feature: US-017: Búsqueda de mercados por tipo de producto
 
     Examples:
       | producto | ubicacion |
-      | Pescado | Cajamarca |
+      | Pescado  | Cajamarca |

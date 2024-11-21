@@ -18,4 +18,4 @@ Feature: US-006: Recomendaciones de cultivos
 
     Examples:
       |  ubicacion      |
-      |        |
+      |                 |
